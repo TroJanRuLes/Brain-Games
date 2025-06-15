@@ -2,8 +2,8 @@
 
 install:
 		npm ci
-		chmod +x bin/brain-games.js
-		chmod +x bin/brain-even.js
+		chmod +x bin/brain-games.js bin/brain-even.js
+		
 brain-games:
 		node bin/brain-games.js
 
