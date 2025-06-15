@@ -1,7 +1,6 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
@@ -15,6 +14,7 @@
       "brain-even": "bin/brain-even.js"
     }
   },
+  "type": "module",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
