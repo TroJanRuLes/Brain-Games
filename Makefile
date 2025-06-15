@@ -1,14 +1,17 @@
 .PHONY: install brain-games publish lint
 
 install:
-npm ci
-chmod +x bin/brain-games.js
+		npm ci
+		chmod +x bin/brain-games.js
 
 brain-games:
-node bin/brain-games.js
+		node bin/brain-games.js
 
 publish:
-npm publish --dry-run
+		npm publish --dry-run
+
+link:
+		npm link
 
 lint:
-npx eslint .
+		npx eslint .
